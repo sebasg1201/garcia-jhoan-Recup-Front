@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Registrarse</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="STYLE/STYLESregi.css" />
+</head>
+
+<body>
+
+    <div class="col-md-3 left-col1 d-flex justify-content-center">
+        <a href="login.html"><img src="img/logo2.png" alt="Logo de Expertobra" class="logo"></a>
+    </div>
+
+    <div class="container">
+        <h4 class="mb-4">
+            Registre sus datos y pague la inscripción anual para tener acceso a la bolsa de Empleo
+        </h4>
+
+        <p class="fw-bold"><i class="bi bi-box2-fill"></i> Información Personal</p>
+
+        <form class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="NoDocumento" class="form-label">
+                        <i class="bi bi-file-person"></i> No. Documento
+                    </label>
+                    <input type="number" class="form-control" id="NoDocumento" placeholder="Obligatorio">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="NombreCompleto" class="form-label">
+                        <i class="bi bi-person-fill"></i> Nombres Completos
+                    </label>
+                    <input type="text" class="form-control" id="NombreCompleto" placeholder="Obligatorio">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="NumeroTelefono" class="form-label">
+                        <i class="bi bi-telephone-fill"></i> No. Celular
+                    </label>
+                    <input type="tel" class="form-control" id="NumeroTelefono" placeholder="Obligatorio">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="Email" class="form-label">
+                        <i class="bi bi-envelope-fill"></i> Email
+                    </label>
+                    <input type="email" class="form-control" id="Email" placeholder="Obligatorio">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="Profesion" class="form-label">
+                        <i class="bi bi-person-fill"></i> Profesión
+                    </label>
+                    <input type="text" class="form-control" id="Profesion" placeholder="Obligatorio">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="Contrasena" class="form-label">
+                        <i class="bi bi-key-fill"></i> Contraseña Min 8 Max 10 caracteres
+                    </label>
+                    <input type="password" class="form-control" id="Contrasena" placeholder="Obligatorio">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="DescripcionPerfil" class="form-label fw-bold">
+                    <i class="bi bi-chat-dots"></i> Descripción del Perfil
+                </label>
+                <textarea class="form-control" id="DescripcionPerfil" rows="4" placeholder="Describa su perfil profesional y laboral brevemente."></textarea>
+            </div>
+
+            <div class="mb-3">
+                <h5 class="fw-bold">
+                    <i class="bi bi-file-earmark-image"></i> Foto
+                </h5>
+                <p>
+                    Tipo de archivo permitido: JPG, JPEG, PNG. Tamaño máximo 50MB. <br>
+                    Resolución mínima 500x500px o superior manteniendo el aspecto cuadrado (1:1)
+                </p>
+                <input type="file" class="form-control mb-2">
+            </div>
+
+            <p>Los campos marcados con * son obligatorios</p>
+
+            <div class="text-center mb-4">
+                <button type="submit" class="btn btn-primary">GUARDAR</button>
+            </div>
+        </form>
+
+        <footer class="text-center py-3">
+            Copyright © Expertobra SAS, All Rights Reserved. <br>
+            Designed by <a href="#">HTML</a> Distributed By: <a href="#">Esquivel-Ingeniero</a>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

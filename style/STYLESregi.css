@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding-bottom: 100px; 
+}
+
+.left-col1 {
+    background: linear-gradient(114deg, #B3FFF1 90%, white 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.right-col1 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 30px;
+    padding: 10px;
+}
+
+.logo {
+    width: 230px;
+    height: 70px;
+    margin-left: 0%;
+    display: flex;
+}
+
+h1 {
+    font-size: 18px;
+    color: #555;
+    padding: 20px 30px 10px 30px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+
+form {
+    padding: 0 30px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+p i {
+    color: #666;
+    margin-right: 5px;
+}
+
+h5 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #555;
+}
+
+h5 i {
+    color: #666;
+    margin-right: 5px;
+}
+
+.form-label {
+    color: #339684;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+textarea.form-control {
+    height: 120px;
+}
+
+button[type="submit"].btn-secondary {
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+button.btn-primary {
+    background-color: #EB4202;
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+.centrar-horizontal {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button.btn-primary:hover {
+    background-color:#BD3B23;
+}
+
+footer {
+    background-color: #548C82;
+    color: #fff;
+    font-size: 12px;
+    padding: 15px 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+}
