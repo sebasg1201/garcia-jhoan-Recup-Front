@@ -1,0 +1,201 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+.red-titulo{
+    color: white;
+    margin-right: 15px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.redes i{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.left-col {
+    background: linear-gradient(114deg, #588980 96%, #709D95 4%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding: 1px;
+}
+
+.right-col {
+    background-color: #709D95;
+    padding: 7px;
+}
+
+.com {
+    padding: 7px;
+    color: white;
+}
+
+.bi-telephone-fill {
+    color: white;
+    padding: 7px;
+}
+
+.redes a{
+    text-decoration: none;
+}
+
+.left-col1 {
+    background: linear-gradient(114deg, #B3FFF1 90%, white 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.right-col1 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 30px;
+    padding: 10px;
+}
+
+.logo {
+    width: 230px;
+    height: 70px;
+    margin-left: 0%;
+    display: flex;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-right: 40px;
+}
+
+.nav1 li {
+    display: flex;
+    align-items: center;
+}
+
+.nav1 a, .nav1 select {
+    font-size: 14px;
+    padding: 8px 12px;
+    color: #548C82;
+    text-decoration: none;
+}
+
+.consul, .cursos {
+    border: none;
+    text-decoration: none;
+}
+
+.nav1 a.ingresar {
+    color: #1C0D0B;
+}
+
+.nav1 a.inicio {
+    color: #906E72;
+}
+
+.tienda{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.nav1 a:hover,
+.nav1 select:hover {
+    color: #709D95;
+}
+
+.cont-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cont-img .tienda {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    display: block;
+}
+
+.cont-img i {
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    background-color: rgba(185, 72, 102, 0.7);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-img .bi-chevron-left {
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+}
+
+.cont-img .bi-chevron-right {
+    top: 50%;
+    right: 150px;
+    transform: translateY(-50%);
+}
+
+.cont-img .flecha-arriba {
+    position: absolute;
+    bottom: 170px;
+    left: 1830px;
+    font-size: 2rem;
+    color: white;
+    background-color: #B94866;
+    z-index: 2;
+}
+
+.ver {
+    position: absolute;
+    bottom: 250px;
+    left: 400px;
+    background-color: #709D95;
+    color: white;
+    padding: 20px 20px;
+    border: 1px solid #53202e ;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
